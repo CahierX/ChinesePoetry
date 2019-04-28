@@ -1,2 +1,4 @@
 *.XML linguist-language==vue
 *.ps1 linguist-language==vue
+*.psm1 linguist-language==vue
+*.js linguist-language==vue
