@@ -5,3 +5,4 @@
 *.js linguist-language==vue
 *.html linguist-language==vue
 *.css linguist-language==vue
+*.cs linguist-language==vue
