@@ -6,3 +6,5 @@
 *.html linguist-language==vue
 *.css linguist-language==vue
 *.cs linguist-language==vue
+*.config linguist-language==vue
+
