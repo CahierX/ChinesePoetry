@@ -1,4 +1,7 @@
 *.XML linguist-language==vue
 *.ps1 linguist-language==vue
+*.psd1 linguist-language==vue
 *.psm1 linguist-language==vue
 *.js linguist-language==vue
+*.html linguist-language==vue
+*.css linguist-language==vue
