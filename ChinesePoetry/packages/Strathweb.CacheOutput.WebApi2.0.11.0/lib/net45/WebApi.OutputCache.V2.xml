@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi.OutputCache.V2</name>
+    </assembly>
+    <members>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.AnonymousOnly">
+            <summary>
+            Cache enabled only for requests when Thread.CurrentPrincipal is not set
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.MustRevalidate">
+            <summary>
+            Corresponds to MustRevalidate HTTP header - indicates whether the origin server requires revalidation of a cache entry on any subsequent use when the cache entry becomes stale
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.ExcludeQueryStringFromCacheKey">
+            <summary>
+            Do not vary cache by querystring values
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.ServerTimeSpan">
+            <summary>
+            How long response should be cached on the server side (in seconds)
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.ClientTimeSpan">
+            <summary>
+            Corresponds to CacheControl MaxAge HTTP header (in seconds)
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.SharedTimeSpan">
+            <summary>
+            Corresponds to CacheControl Shared MaxAge HTTP header (in seconds)
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.NoCache">
+            <summary>
+            Corresponds to CacheControl NoCache HTTP header
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.Private">
+            <summary>
+            Corresponds to CacheControl Private HTTP header. Response can be cached by browser but not by intermediary cache
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.CacheKeyGenerator">
+            <summary>
+            Class used to generate caching keys
+            </summary>
+        </member>
+        <member name="P:WebApi.OutputCache.V2.CacheOutputAttribute.MediaType">
+            <summary>
+            If set to something else than an empty string, this value will always be used for the Content-Type header, regardless of content negotiation.
+            </summary>
+        </member>
+        <member name="M:WebApi.OutputCache.V2.TimeAttributes.CacheOutputUntilAttribute.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Cache item until absolute expiration 2012/01/01 @ 17h45
+            </summary>
+            <param name="year">2012</param>
+            <param name="month">1</param>
+            <param name="day">1</param>
+            <param name="hour">17</param>
+            <param name="minute">45</param>
+            <param name="second">0</param>
+        </member>
+        <member name="M:WebApi.OutputCache.V2.TimeAttributes.CacheOutputUntilThisMonthAttribute.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Cache item until absolute expiration THIS YEAR / THIS MONTH / 01 @ 17h45
+            </summary>
+            <param name="day">1</param>
+            <param name="hour">17</param>
+            <param name="minute">45</param>
+            <param name="second">0</param>
+        </member>
+        <member name="M:WebApi.OutputCache.V2.TimeAttributes.CacheOutputUntilThisYearAttribute.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Cache item until absolute expiration THIS YEAR / 01 / 01 @ 17h45
+            </summary>
+            <param name="month">1</param>
+            <param name="day">1</param>
+            <param name="hour">17</param>
+            <param name="minute">45</param>
+            <param name="second">0</param>
+        </member>
+        <member name="M:WebApi.OutputCache.V2.TimeAttributes.CacheOutputUntilToday.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>
+                Cache item until absolute expiration today @ 17h45
+            </summary>
+            <param name="hour">17</param>
+            <param name="minute">45</param>
+            <param name="second">0</param>
+        </member>
+    </members>
+</doc>
