@@ -1,6 +1,12 @@
 # 中国古诗词APP
 ## 基于Vue+Vant+WebAPi+SqlServer
 
+## 线上地址
+[诗情](http://120.77.221.184) 
+## APP体验
+<div align=center>
+<img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/二维码.png" width="350"  />
+</div>
 ## APP的诞生历史
 
 我的小可爱是一位很喜欢诗词的姑娘，有一天我看到了一位站长为他女朋友做了一个网站，里面放了她写的所有诗词还有他们的故事，超级浪漫了！！我就萌发了做个软件送给小可爱的念头，但是暂时不知道做什么就搁置了。一次偶然的机会在Github上发现了古诗词的数据包，因为我就做了这款软件，先给我的小可爱。
@@ -8,7 +14,7 @@
 ## 文件夹结构
 
 #### ChinesePoetry为后端源代码
-#### poetry 为前端源代码
+#### vuePoetry 为前端源代码
 #### image 为APP操作截图
 
 ## 功能简介
@@ -24,6 +30,7 @@
 #### 每首诗词配带若干张图片，下拉即可换下一张
 #### 古诗词分享功能，支持换背景图、更改字体颜色、更改字体内容、更改显示框位置
 #### 右滑返回
+#### 页面预加载
 #### 全局换繁体字体
 #### 软件自带五种字体
 
@@ -57,11 +64,15 @@
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/details.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/sentence.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/random.jpg" width="450"  />
+<img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/searchKey.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/poet.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/searchPoet.jpg" width="450"  />
+<img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/share.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/set.jpg" width="450"  />
 <img src="https://github.com/BenBlossom/ChinesePoetry/blob/master/image/tag.jpg" width="450"  />
 </div>
-作者 @Cahier   
-2019 年 04月 29日   0:00
+
+#### 2020应届生（无业游民）找前端实习 QQ：392003312 Email：392003312@qq.com
+#### 作者   @Cahier    2019 年 04月 29日   0:00
+
 
