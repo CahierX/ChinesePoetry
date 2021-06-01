@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "vant": "^1.6.6",
     "vcolorpicker": "^0.1.8",
     "vue": "^2.6.6",
